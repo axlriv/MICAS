@@ -1,0 +1,253 @@
+.bitfondo {
+  width: 910px;
+  height: auto;
+  margin: 0px auto;
+  background: #d9d9d8;
+  padding-top: 50px;
+}
+
+.bitengraved {
+  width: 700px;
+  height: 500px;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: center;
+  opacity: 0.1;
+}
+
+.bittit {
+  font-family: 'NewYork';
+  font-size: 100px;
+  text-transform: uppercase;
+  line-height: 80%;
+  padding-bottom: 40px;
+  margin-top: -280px;
+  margin-bottom: 120px;
+  text-shadow: 8px 8px 8px #ececec;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 910px;
+  padding: 50px;
+}
+
+.tabs__label {
+  padding: 2px 5px;
+  font-size: 13px;
+  font-family: 'Courier New';
+  letter-spacing: 1px;
+  background: #131313;
+  color: #ebebeb;
+  margin: 1px;
+  cursor: pointer;
+}
+
+.tabs__radio {
+  display: none;
+}
+
+.tabs__content {
+  order: 1;
+  width: 100%;
+  margin-top: 10px;
+  display: none;
+}
+
+.tabs__radio:checked + .tabs__label {
+  color: #ebebeb;
+  background-color: #968470;
+}
+
+.tabs__radio:checked + .tabs__label + .tabs__content {
+  display: initial;
+}
+
+/* FONTS */
+
+/* BRECHAS */
+
+.bitacora {
+  width: 810px;
+  height: auto;
+  margin-left: -50px;
+  padding: 50px;
+  background: #d8d8d7;
+  outline: 1px solid #131313;
+  outline-offset: -20px;
+}
+
+.bitcabecera {
+  width: 810px;
+  height: 300px;
+}
+
+.bitportada {
+  position: absolute;
+  width: 295px;
+  height: 295px;
+  margin: 5px;
+  filter: brightness(50%);
+  outline: 1px solid #131313;
+  outline-offset: 5px;
+}
+
+.bitbrecha {
+  width: 50px;
+  background: #131313;
+  color: #ffffff;
+  padding: 6px;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-align: center;
+  font-family: 'Courier New';
+  font-weight: 800;
+  margin-left: 315px;
+}
+
+.bitnombre {
+  width: 480px;
+  height: 50px;
+  font-size: 40px;
+  font-family: 'NewYork';
+  color: #131313;
+  margin-top: 10px;
+  margin-left: 315px;
+  border-bottom: 1px solid #131313;
+}
+
+.bitdatos {
+  width: 480px;
+  margin-left: 315px;
+  margin-top: 10px;
+  margin-bottom: 6px;
+  font-family: 'Courier New';
+  font-size: 12px;
+  text-transform: uppercase;
+  word-wrap: break-word;
+}
+
+.bitdatos n {
+  font-family: 'Courier New';
+  background: #131313;
+  color: #FFFAFA;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  letter-spacing: 2px;
+}
+
+.bitdatos i {
+  font-family: "Courier New";
+  color: #131313;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  letter-spacing: 2px;
+}
+
+.biddesc {
+  margin-left: 315px;
+  margin-top: 15px;
+  height: 188px;
+  width: 480px;
+  font-size: 14px;
+  color: #131313;
+  overflow: auto;
+  text-align: justify;
+}
+
+.bitbestiario {
+  margin-top: 30px;
+}
+
+.bitbreacher {
+  display: inline-block;
+  position: relative;
+  margin: 4px;
+  width: 396px;
+  height: 200px;
+  outline: 1px solid #131313;
+  outline-offset: 3px;
+  transition: 0.4s ease;
+}
+
+.bitbreacher:hover {
+  outline: 1px solid #6e6e6e;
+}
+
+img.bitbreacher {
+  display: inline-block;
+  position: relative;
+  height: 200px;
+  width: 200px;
+}
+
+.breachernombre {
+  display: inline-block;
+  position: absolute;
+  background: #131313;
+  color: #e6e6e6;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-family: Courier New;
+  letter-spacing: 1px;
+  padding: 3px;
+  width: 180px;
+  margin: 1px 5px;
+}
+
+.breacherstats {
+  display: inline-block;
+  position: absolute;
+  width: 180px;
+  margin-top: 24px;
+  margin-left: 4px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 9px;
+  padding: 4px;
+  font-family: Courier New;
+}
+
+.breacherdesc {
+  display: inline-block;
+  position: absolute;
+  text-align: justify;
+  width: 176px;
+  height: 138px;
+  margin: 40px 5px 5px 5px;
+  padding: 5px;
+  font-size: 12px;
+  overflow: auto;
+  transition: 0.4s ease;
+}
+
+.breacherhabs {
+  display: none;
+  position: absolute;
+  background: #d8d8d7;
+  text-align: justify;
+  width: 176px;
+  height: 138px;
+  margin: 40px 5px 5px 5px;
+  padding: 5px;
+  font-size: 12px;
+  overflow: auto;
+}
+
+.breacherdesc:hover + .breacherhabs {
+  display: inline-block;
+}
+
